@@ -18,6 +18,14 @@
 };
  */
 
+&mmv {
+    time-to-max-speed-ms = <50>;
+};
+
+&msc {
+    acceleration-expotent = <1>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
