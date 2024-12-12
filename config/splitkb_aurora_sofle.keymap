@@ -78,11 +78,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&bt BT_CLR   &none      &none          &none         &ext_power EP_OFF  &ext_power EP_ON                          &none              &none             &none              &none      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&kp LA(TAB)  &kp EXCL   &kp AT         &kp HASH      &kp DOLLAR         &kp PERCENT                               &kp DOUBLE_QUOTES  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp COLON  &none              &kp BACKSLASH
-&kp GRAVE    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp PLUS           &kp EQUAL                                 &kp SLASH          &kp LESS_THAN     &kp GREATER_THAN   &kp LPAR   &kp RPAR           &kp TILDE
-&none        &none      &none          &none         &kp UNDERSCORE     &kp MINUS         &none        &none      &kp COMMA          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOT    &kp QUESTION       &kp PIPE
-                        &none          &none         &none              &mo 1             &kp SPACE    &kp ENTER  &kp BACKSPACE      &none             &none              &none
+&bt BT_CLR   &none      &none          &none         &ext_power EP_OFF  &ext_power EP_ON                          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none              &none             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp LA(TAB)  &kp EXCL   &kp AT         &kp HASH      &kp DOLLAR         &kp PERCENT                               &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &none              &kp BACKSLASH
+&kp GRAVE    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp PLUS           &kp EQUAL                                 &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp TILDE
+&none        &none      &none          &none         &kp UNDERSCORE     &kp MINUS         &none        &none      &kp COLON             &kp SEMI               &kp COMMA          &kp DOT           &kp QUESTION       &kp PIPE
+                        &none          &none         &none              &mo 1             &kp SPACE    &kp ENTER  &kp BACKSPACE         &none                  &none              &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
