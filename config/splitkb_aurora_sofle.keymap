@@ -63,7 +63,7 @@
 &kp TAB           &kp Q    &kp W   &kp E         &kp R         &kp T                         &kp Y            &kp U     &kp I      &kp O    &kp P     &kp DEL
 &kp LEFT_SHIFT    &kp A    &kp S   &kp D         &kp F         &kp G                         &kp H            &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_CONTROL  &lt 3 Z  &kp X   &kp C         &kp V         &kp B   &none        &none    &kp N            &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                           &mo 3   &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp RET  &lt 2 BACKSPACE  &kp RALT  &none      &to 4
+                           &mo 4   &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp RET  &lt 2 BACKSPACE  &kp RALT  &none      &to 4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -78,11 +78,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&bt BT_CLR   &none      &none          &none         &ext_power EP_OFF  &ext_power EP_ON                          &none                 &none                  &none          &none             &none         &none
-&kp LA(TAB)  &kp EXCL   &kp AT         &kp HASH      &kp DOLLAR         &kp PERCENT                               &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON      &none             &none         &kp BACKSLASH
-&kp GRAVE    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp PLUS           &kp EQUAL                                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp LPAR          &kp RPAR      &kp TILDE
-&none        &none      &none          &none         &kp UNDERSCORE     &kp MINUS         &none        &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &kp PIPE
-                        &none          &none         &none              &mo 1             &kp SPACE    &kp ENTER  &kp BACKSPACE         &none                  &none          &none
+&bt BT_CLR   &none      &none          &none         &ext_power EP_OFF  &ext_power EP_ON                          &none              &none             &none              &none      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp LA(TAB)  &kp EXCL   &kp AT         &kp HASH      &kp DOLLAR         &kp PERCENT                               &kp DOUBLE_QUOTES  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp COLON  &none              &kp BACKSLASH
+&kp GRAVE    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp PLUS           &kp EQUAL                                 &kp SLASH          &kp LESS_THAN     &kp GREATER_THAN   &kp LPAR   &kp RPAR           &kp TILDE
+&none        &none      &none          &none         &kp UNDERSCORE     &kp MINUS         &none        &none      &kp COMMA          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOT    &kp QUESTION       &kp PIPE
+                        &none          &none         &none              &mo 1             &kp SPACE    &kp ENTER  &kp BACKSPACE      &none             &none              &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
