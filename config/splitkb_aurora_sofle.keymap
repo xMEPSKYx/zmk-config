@@ -66,7 +66,9 @@
                            &mo 4   &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE        &kp RET   &lt 2 BACKSPACE  &kp RALT  &kp RCTRL  &to 4
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         lower_layer {
@@ -97,11 +99,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&none           &none         &none      &none      &none      &none                              &none          &none         &kp F2        &none            &none              &kp LA(F4)
-&none           &kp N1        &kp N2     &kp N3     &kp N4     &kp N5                             &kp PAGE_UP    &kp LC(LEFT)  &kp UP_ARROW  &kp LC(RIGHT)    &kp LC(BACKSPACE)  &none
-&kp LEFT_SHIFT  &kp NUMBER_6  &kp N7     &kp N8     &kp N9     &kp N0                             &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &kp DEL            &kp PRINTSCREEN
-&kp LCTRL       &kp LC(Z)     &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(A)  &none        &none      &kp KP_PLUS    &kp HOME      &none         &kp END          &none              &kp RIGHT_SHIFT
-                              &none      &none      &none      &none      &kp SPACE    &kp ENTER  &mo 2          &none         &none         &none
+&kp LC(F8)      &kp LC(F1)    &kp LC(F2)  &kp LC(F3)  &kp LC(F4)  &none                              &none          &none         &kp F2        &none            &none              &kp LA(F4)
+&none           &kp N1        &kp N2      &kp N3      &kp N4      &kp N5                             &kp PAGE_UP    &kp LC(LEFT)  &kp UP_ARROW  &kp LC(RIGHT)    &kp LC(BACKSPACE)  &none
+&kp LEFT_SHIFT  &kp NUMBER_6  &kp N7      &kp N8      &kp N9      &kp N0                             &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &kp DEL            &kp PRINTSCREEN
+&kp LCTRL       &kp LC(Z)     &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(A)  &none        &none      &kp KP_PLUS    &kp HOME      &none         &kp END          &none              &kp RIGHT_SHIFT
+                              &none       &none       &none       &none      &kp SPACE    &kp ENTER  &mo 2          &none         &none         &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
